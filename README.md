@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Darkelf Shell** is a privacy-focused, anti-fingerprinting browser shell with advanced post-quantum security features. It is designed for researchers, privacy enthusiasts, and anyone seeking maximum anonymity and anti-tracking defenses.
+**Darkelf Shell** is a privacy-focused, anti-fingerprinting browser shell with advanced security features. It is designed for researchers, privacy enthusiasts, and anyone seeking maximum anonymity and anti-tracking defenses.
 
 ---
 
@@ -91,7 +91,6 @@
 
 ## 🏁 Philosophy
 
-- **Post-Quantum Ready:** Designed for future quantum threats; privacy and anti-fingerprinting at every level.
 - **No Addons Needed:** All defenses are built-in; no user scripts or browser extensions required.
 - **Transparency:** All UI and defenses are visible and auditable in Python and JS.
 
