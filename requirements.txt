@@ -1,5 +1,15 @@
+# Core GUI dependencies
 PyQt6>=6.4.0
 PyQtWebEngine>=6.4.0
+
+# Network and security dependencies
 requests>=2.28.0
 PySocks>=1.7.1
 cryptography>=3.4.8
+
+# Optional dependencies for enhanced functionality
+# Install with: pip install -r requirements.txt
+# 
+# For Tor integration: PySocks
+# For GUI: PyQt6, PyQtWebEngine
+# For encryption: cryptography
