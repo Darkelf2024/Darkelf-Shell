@@ -1,0 +1,36 @@
+{
+  "_comment": "Sample configuration for Darkelf Shell - Maximum Privacy",
+  "tor": {
+    "enabled": true,
+    "socks_port": 9050,
+    "control_port": 9051,
+    "auto_start": false,
+    "_comment": "Set auto_start to true to automatically start Tor"
+  },
+  "security": {
+    "panic_key": "Ctrl+Shift+P",
+    "clear_history_on_exit": true,
+    "disable_javascript": false,
+    "disable_plugins": true,
+    "_comment": "Panic key triggers immediate data destruction"
+  },
+  "ui": {
+    "theme": "dark",
+    "show_status_bar": true,
+    "tab_position": "top",
+    "_comment": "UI preferences for the shell interface"
+  },
+  "personas": {
+    "rotation_interval": 300,
+    "auto_switch": false,
+    "_comment": "Persona rotation settings in seconds"
+  },
+  "sessions": {
+    "auto_save": true,
+    "save_interval": 600,
+    "max_sessions": 10,
+    "_comment": "Session management settings"
+  },
+  "default_persona": "anonymous",
+  "_comment": "Default persona to use on startup"
+}
